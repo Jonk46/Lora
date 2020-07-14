@@ -1,354 +1,650 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Haircare - Free Bootstrap 4 Template by Colorlib</title>
-    <meta charset="utf-8">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:500,600,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Title -->
+    <title>Confer - Conference Event HTML Template</title>
 
-    <link rel="stylesheet" href="css/aos.css">
+    <!-- Favicon -->
+    <link rel="icon" href="./img/core-img/favicon.png">
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
+</head>
 
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html"><span class="flaticon-scissors-in-a-hair-salon-badge"></span>Haircare</a>
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+    <!-- /Preloader -->
 
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav ml-auto">
-	        	<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	        	<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-	        	<li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-	        	<li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-    <!-- END nav -->
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+                <!-- Classy Menu -->
+                <nav class="classy-navbar justify-content-between" id="conferNav">
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg-1.jpg');" data-stellar-background-ratio="0.5">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
-          <div class="col-md-9 ftco-animate pb-5 text-center">
-            <h2 class="mb-0 bread">About us</h2>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-round-forward"></i></a></span> <span>About <i class="ion-ios-arrow-round-forward"></i></span></p>
-          </div>
+                    <!-- Logo -->
+                    <a class="nav-brand" href="./index.html"><img src="./img/core-img/logo.png" alt=""></a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
+                    <!-- Menu -->
+                    <div class="classy-menu">
+                        <!-- Menu Close Button -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        </div>
+                        <!-- Nav Start -->
+                        <div class="classynav">
+                            <ul id="nav">
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li><a href="#">Pages</a>
+                                    <ul class="dropdown">
+                                        <li><a href="index.html">- Home</a></li>
+                                        <li><a href="about.html">- About Us</a></li>
+                                        <li><a href="speakers.html">- Speakears</a></li>
+                                        <li><a href="schedule.html">- Schedule</a></li>
+                                        <li><a href="tickets.html">- Tickets</a></li>
+                                        <li><a href="blog.html">- Blog</a></li>
+                                        <li><a href="single-blog.html">- Single Blog</a></li>
+                                        <li><a href="contact.html">- Contact</a></li>
+                                        <li><a href="#">- Dropdown</a>
+                                            <ul class="dropdown">
+                                                <li><a href="#">- Dropdown Item</a></li>
+                                                <li><a href="#">- Dropdown Item</a></li>
+                                                <li><a href="#">- Dropdown Item</a></li>
+                                                <li><a href="#">- Dropdown Item</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="speakers.html">Speakears</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+
+                            <!-- Get Tickets Button -->
+                            <a href="#" class="btn confer-btn mt-3 mt-lg-0 ml-3 ml-lg-5">Get Tickets <i class="zmdi zmdi-long-arrow-right"></i></a>
+                        </div>
+                        <!-- Nav End -->
+                    </div>
+                </nav>
+            </div>
         </div>
-      </div>
+    </header>
+    <!-- Header Area End -->
+
+    <!-- Breadcrumb Area Start -->
+    <section class="breadcrumb-area bg-img bg-gradient-overlay jarallax" style="background-image: url(img/bg-img/27.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcrumb-content">
+                        <h2 class="page-title">About Us</h2>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">About us</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    
-    <section class="ftco-section ftco-no-pb ftco-no-pt">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 d-flex">
-						<div class="p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/bg-2.jpg);">
-							<a href="https://vimeo.com/45830194" class="icon popup-vimeo d-flex justify-content-center align-items-center">
-								<span class="icon-play"></span>
-							</a>
-						</div>
-					</div>
-					<div class="col-md-6 py-md-5 pb-5 wrap-about pb-md-5 ftco-animate">
-	          <div class="heading-section mb-4 mt-md-5">
-	          	<span class="subheading">About Us</span>
-	            <h2 class="mb-4">Welcome To Haircare A Hair Salon</h2>
-	          </div>
-	          <div class="pb-md-5">
-							<p>But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+    <!-- Breadcrumb Area End -->
 
-		<section class="ftco-section ftco-team">
-    	<div class="container-fluid px-md-5">
-    		<div class="row justify-content-center pb-3">
-          <div class="col-md-10 heading-section text-center ftco-animate">
-          	<span class="subheading">Artistic Director</span>
-            <h2 class="mb-4">Makeup Artist</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-          </div>
+    <!-- What We offer Area Start -->
+    <section class="what-we-offer-area section-padding-100-70">
+        <div class="container">
+            <div class="row">
+                <!-- Heading -->
+                <div class="col-12">
+                    <div class="section-heading-3 text-center wow fadeInUp" data-wow-delay="300ms">
+                        <p>Summit Meeting</p>
+                        <h4>What We Offer</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Single We Offer Area -->
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="single-we-offer-content text-center wow fadeInUp" data-wow-delay="0.3s">
+                        <!-- Icon -->
+                        <div class="offer-icon">
+                            <img src="img/core-img/icon.png" alt="">
+                        </div>
+                        <h5>Conference</h5>
+                        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque</p>
+                    </div>
+                </div>
+
+                <!-- Single We Offer Area -->
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="single-we-offer-content text-center wow fadeInUp" data-wow-delay="0.3s">
+                        <!-- Icon -->
+                        <div class="offer-icon">
+                            <img src="img/core-img/icon-2.png" alt="">
+                        </div>
+                        <h5>Workshops</h5>
+                        <p>Temporibus autem quibusdam et aut officiis debitis aut rerum</p>
+                    </div>
+                </div>
+
+                <!-- Single We Offer Area -->
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="single-we-offer-content text-center wow fadeInUp" data-wow-delay="0.3s">
+                        <!-- Icon -->
+                        <div class="offer-icon">
+                            <img src="img/core-img/icon-3.png" alt="">
+                        </div>
+                        <h5>Coffee Breaks</h5>
+                        <p>On the other hand, we denounce with righteous indignation</p>
+                    </div>
+                </div>
+
+                <!-- Single We Offer Area -->
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="single-we-offer-content text-center wow fadeInUp" data-wow-delay="0.3s">
+                        <!-- Icon -->
+                        <div class="offer-icon">
+                            <img src="img/core-img/icon-4.png" alt="">
+                        </div>
+                        <h5>Events</h5>
+                        <p>These cases are perfectly simple and easy to distinguish in a free hour</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-        	<div class="col-md-12 ftco-animate">
-        		<div class="carousel-team owl-carousel">
-        			<div class="item">
-		        		<a href="#" class="team text-center">
-		        			<div class="img" style="background-image: url(images/stylist-1.jpg);"></div>
-		        			<h2>Danica Lewis</h2>
-		        			<span class="position">Hair Stylist</span>
-		        		</a>
-        			</div>
-        			<div class="item">
-	        			<a href="#" class="team text-center">
-		        			<div class="img" style="background-image: url(images/stylist-2.jpg);"></div>
-		        			<h2>Nicole Simon</h2>
-		        			<span class="position">Nail Master</span>
-		        		</a>
-	        		</div>
-	        		<div class="item">
-	        			<a href="#" class="team text-center">
-		        			<div class="img" style="background-image: url(images/stylist-3.jpg);"></div>
-		        			<h2>Cloe Meyer</h2>
-		        			<span class="position">Director</span>
-		        		</a>
-	        		</div>
-	        		<div class="item">
-	        			<a href="#" class="team text-center">
-		        			<div class="img" style="background-image: url(images/stylist-4.jpg);"></div>
-		        			<h2>Rachel Clinton</h2>
-		        			<span class="position">Hair Stylist</span>
-		        		</a>
-	        		</div>
-	        		<div class="item">
-	        			<a href="#" class="team text-center">
-		        			<div class="img" style="background-image: url(images/stylist-5.jpg);"></div>
-		        			<h2>Dave Buff</h2>
-		        			<span class="position">Barber</span>
-		        		</a>
-	        		</div>
-        		</div>
-        	</div>
-        </div>
-    	</div>
     </section>
+    <!-- What We offer Area End -->
 
-		
-		<section class="ftco-section ftco-no-pt ftco-no-pb">
-			<div class="container-fluid px-0">
-				<div class="row no-gutters">
-					<div class="col-md text-center d-flex align-items-stretch">
-						<div class="services-wrap d-flex align-items-center img" style="background-image: url(images/formen.jpg);">
-							<div class="text">
-								<h3>For Men</h3>
-								<p><a href="#" class="btn-custom">See pricing <span class="ion-ios-arrow-round-forward"></span></a></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 text-center d-flex align-items-stretch">
-						<div class="text-about py-5 px-4">
-							<h1 class="logo">
-								<a href="#"><span class="flaticon-scissors-in-a-hair-salon-badge"></span>Haircare</a>
-							</h1>
-							<h2>Welcome to our Salon</h2>
-							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-							<p class="mt-3"><a href="#" class="btn btn-primary btn-outline-primary">Read more</a></p>
-						</div>
-					</div>
-					<div class="col-md text-center d-flex align-items-stretch">
-						<div class="services-wrap d-flex align-items-center img" style="background-image: url(images/forwomen.jpg);">
-							<div class="text">
-								<h3>For Women</h3>
-								<p><a href="#" class="btn-custom">See pricing <span class="ion-ios-arrow-round-forward"></span></a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+    <!-- About Us And Countdown Area Start -->
+    <section class="about-us-countdown-area section-padding-100-0" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- About Content -->
+                <div class="col-12 col-md-6">
+                    <div class="about-content-text mb-80">
+                        <h6 class="wow fadeInUp" data-wow-delay="300ms">About Conference</h6>
+                        <h3 class="wow fadeInUp" data-wow-delay="300ms">Welcome to the Project Management</h3>
+                        <p class="wow fadeInUp" data-wow-delay="300ms">The Project Management is a platform to learn expert techniques for building successful project teams, creating efficient plans and implementing effective tracking measures to ensure your projects come in on deadline and on budget. In one fast-paced, well-designed day, we’ll cover all the essential elements of project management.</p>
+                        <a href="#" class="btn confer-btn mt-50 wow fadeInUp" data-wow-delay="300ms">Interested <i class="zmdi zmdi-long-arrow-right"></i></a>
+                    </div>
+                </div>
 
-		<section class="testimony-section bg-light">
-      <div class="container">
-        <div class="row ftco-animate justify-content-center">
-        	<div class="col-md-6 col-lg-5 d-flex">
-        		<div class="testimony-img" style="background-image: url(images/testimony-img.jpg);"></div>
-        	</div>
-          <div class="col-md-6 col-lg-7 py-5 pl-md-5">
-          	<div class="py-md-5">
-	          	<div class="heading-section ftco-animate">
-	          		<span class="subheading">Testimony</span>
-			          <h2 class="mb-0">Happy Customer</h2>
-			        </div>
-	            <div class="carousel-testimony owl-carousel ftco-animate">
-	              <div class="item">
-	                <div class="testimony-wrap pb-4">
-	                  <div class="text">
-	                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-	                  </div>
-	                  <div class="d-flex">
-		                  <div class="user-img" style="background-image: url(images/stylist-1.jpg)">
-		                  </div>
-		                  <div class="pos ml-3">
-		                  	<p class="name">Jeff Nucci</p>
-		                    <span class="position">Businessman</span>
-		                  </div>
-		                </div>
-	                </div>
-	              </div>
-	              <div class="item">
-	                <div class="testimony-wrap pb-4">
-	                  <div class="text">
-	                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-	                  </div>
-	                  <div class="d-flex">
-		                  <div class="user-img" style="background-image: url(images/stylist-2.jpg)">
-		                  </div>
-		                  <div class="pos ml-3">
-		                  	<p class="name">Jeff Nucci</p>
-		                    <span class="position">Businessman</span>
-		                  </div>
-		                </div>
-	                </div>
-	              </div>
-	              <div class="item">
-	                <div class="testimony-wrap pb-4">
-	                  <div class="text">
-	                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-	                  </div>
-	                  <div class="d-flex">
-		                  <div class="user-img" style="background-image: url(images/stylist-3.jpg)">
-		                  </div>
-		                  <div class="pos ml-3">
-		                  	<p class="name">Jeff Nucci</p>
-		                    <span class="position">Businessman</span>
-		                  </div>
-		                </div>
-	                </div>
-	              </div>
-	              <div class="item">
-	                <div class="testimony-wrap pb-4">
-	                  <div class="text">
-	                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-	                  </div>
-	                  <div class="d-flex">
-		                  <div class="user-img" style="background-image: url(images/stylist-4.jpg)">
-		                  </div>
-		                  <div class="pos ml-3">
-		                  	<p class="name">Jeff Nucci</p>
-		                    <span class="position">Businessman</span>
-		                  </div>
-		                </div>
-	                </div>
-	              </div>
-	              <div class="item">
-	                <div class="testimony-wrap pb-4">
-	                  <div class="text">
-	                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-	                  </div>
-	                  <div class="d-flex">
-		                  <div class="user-img" style="background-image: url(images/stylist-5.jpg)">
-		                  </div>
-		                  <div class="pos ml-3">
-		                  	<p class="name">Jeff Nucci</p>
-		                    <span class="position">Businessman</span>
-		                  </div>
-		                </div>
-	                </div>
-	              </div>
-	            </div>
-	          </div>
-          </div>
+                <!-- About Thumb -->
+                <div class="col-12 col-md-6">
+                    <div class="about-thumb mb-80 wow fadeInUp" data-wow-delay="300ms">
+                        <img src="img/bg-img/2.png" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+
+        <!-- Counter Up Area -->
+        <div class="countdown-up-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-3">
+                        <!-- Countdown Text -->
+                        <div class="countdown-content-text mb-100 wow fadeInUp" data-wow-delay="300ms">
+                            <h6>Conference Date</h6>
+                            <h4>Count Every Second Until the Event</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-9">
+                        <div class="countdown-timer mb-100 wow fadeInUp" data-wow-delay="300ms">
+                            <div id="clock"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <!-- About Us And Countdown Area End -->
 
-    <footer class="ftco-footer ftco-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2 logo">Haircare</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
+    <!-- Our Speakings Area Start -->
+    <section class="our-speaker-area section-padding-100-60">
+        <div class="container">
+            <div class="row">
+                <!-- Heading -->
+                <div class="col-12">
+                    <div class="section-heading-3 text-center wow fadeInUp" data-wow-delay="300ms">
+                        <p>Our Speakings</p>
+                        <h4>Who’s speaking</h4>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-5">
-              <h2 class="ftco-heading-2">Information</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">FAQs</a></li>
-                <li><a href="#" class="py-2 d-block">Privacy</a></li>
-                <li><a href="#" class="py-2 d-block">Terms Condition</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Links</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Home</a></li>
-                <li><a href="#" class="py-2 d-block">About</a></li>
-                <li><a href="#" class="py-2 d-block">Services</a></li>
-                <li><a href="#" class="py-2 d-block">Work</a></li>
-                <li><a href="#" class="py-2 d-block">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
-            	<div class="block-23 mb-3">
-	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
-	              </ul>
-	            </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
 
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
+            <div class="row">
+                <!-- Single Speaker Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Thumb -->
+                        <div class="speaker-single-thumb">
+                            <img src="img/bg-img/4.jpg" alt="">
+                        </div>
+                        <!-- Social Info -->
+                        <div class="social-info">
+                            <a href="#"><i class="zmdi zmdi-facebook"></i></a>
+                            <a href="#"><i class="zmdi zmdi-instagram"></i></a>
+                            <a href="#"><i class="zmdi zmdi-twitter"></i></a>
+                            <a href="#"><i class="zmdi zmdi-linkedin"></i></a>
+                        </div>
+                        <!-- Info -->
+                        <div class="speaker-info">
+                            <h5>Albert Barnes</h5>
+                            <p>Founder</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Speaker Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Thumb -->
+                        <div class="speaker-single-thumb">
+                            <img src="img/bg-img/5.jpg" alt="">
+                        </div>
+                        <!-- Social Info -->
+                        <div class="social-info">
+                            <a href="#"><i class="zmdi zmdi-facebook"></i></a>
+                            <a href="#"><i class="zmdi zmdi-instagram"></i></a>
+                            <a href="#"><i class="zmdi zmdi-twitter"></i></a>
+                            <a href="#"><i class="zmdi zmdi-linkedin"></i></a>
+                        </div>
+                        <!-- Info -->
+                        <div class="speaker-info">
+                            <h5>Patricia Stanley</h5>
+                            <p>Product Lead</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Speaker Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Thumb -->
+                        <div class="speaker-single-thumb">
+                            <img src="img/bg-img/6.jpg" alt="">
+                        </div>
+                        <!-- Social Info -->
+                        <div class="social-info">
+                            <a href="#"><i class="zmdi zmdi-facebook"></i></a>
+                            <a href="#"><i class="zmdi zmdi-instagram"></i></a>
+                            <a href="#"><i class="zmdi zmdi-twitter"></i></a>
+                            <a href="#"><i class="zmdi zmdi-linkedin"></i></a>
+                        </div>
+                        <!-- Info -->
+                        <div class="speaker-info">
+                            <h5>Evelyn Stone</h5>
+                            <p>Photographer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Speaker Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Thumb -->
+                        <div class="speaker-single-thumb">
+                            <img src="img/bg-img/7.jpg" alt="">
+                        </div>
+                        <!-- Social Info -->
+                        <div class="social-info">
+                            <a href="#"><i class="zmdi zmdi-facebook"></i></a>
+                            <a href="#"><i class="zmdi zmdi-instagram"></i></a>
+                            <a href="#"><i class="zmdi zmdi-twitter"></i></a>
+                            <a href="#"><i class="zmdi zmdi-linkedin"></i></a>
+                        </div>
+                        <!-- Info -->
+                        <div class="speaker-info">
+                            <h5>Evelyn Stone</h5>
+                            <p>Photographer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Speaker Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Thumb -->
+                        <div class="speaker-single-thumb">
+                            <img src="img/bg-img/8.jpg" alt="">
+                        </div>
+                        <!-- Social Info -->
+                        <div class="social-info">
+                            <a href="#"><i class="zmdi zmdi-facebook"></i></a>
+                            <a href="#"><i class="zmdi zmdi-instagram"></i></a>
+                            <a href="#"><i class="zmdi zmdi-twitter"></i></a>
+                            <a href="#"><i class="zmdi zmdi-linkedin"></i></a>
+                        </div>
+                        <!-- Info -->
+                        <div class="speaker-info">
+                            <h5>Susan Hopkins</h5>
+                            <p>UX Manager</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Speaker Area -->
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-speaker-area bg-gradient-overlay-2 wow fadeInUp" data-wow-delay="300ms">
+                        <!-- Thumb -->
+                        <div class="speaker-single-thumb">
+                            <img src="img/bg-img/9.jpg" alt="">
+                        </div>
+                        <!-- Social Info -->
+                        <div class="social-info">
+                            <a href="#"><i class="zmdi zmdi-facebook"></i></a>
+                            <a href="#"><i class="zmdi zmdi-instagram"></i></a>
+                            <a href="#"><i class="zmdi zmdi-twitter"></i></a>
+                            <a href="#"><i class="zmdi zmdi-linkedin"></i></a>
+                        </div>
+                        <!-- Info -->
+                        <div class="speaker-info">
+                            <h5>Michael Fowler</h5>
+                            <p>Product Design</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="more-speaker-btn text-center mt-20 mb-40 wow fadeInUp" data-wow-delay="300ms">
+                        <a class="btn confer-btn" href="#">View All Speaker <i class="zmdi zmdi-long-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
+    <!-- Our Speakings Area End -->
+
+    <!-- Our Gallery Area Start -->
+    <div class="our-gallery-area section-padding-0-85">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Single Gallery Thumb -->
+                <div class="col-12 col-sm-3">
+                    <div class="single-gallery-thumb wow fadeInUp" data-wow-delay="300ms">
+                        <img src="img/bg-img/28.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Single Gallery Thumb -->
+                <div class="col-12 col-sm-3">
+                    <div class="single-gallery-thumb wow fadeInUp" data-wow-delay="300ms">
+                        <img src="img/bg-img/29.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Single Gallery Thumb -->
+                <div class="col-12 col-sm-6">
+                    <div class="single-gallery-thumb wow fadeInUp" data-wow-delay="300ms">
+                        <img src="img/bg-img/30.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Single Gallery Thumb -->
+                <div class="col-12 col-sm-6">
+                    <div class="single-gallery-thumb wow fadeInUp" data-wow-delay="300ms">
+                        <img src="img/bg-img/31.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Single Gallery Thumb -->
+                <div class="col-12 col-sm-3">
+                    <div class="single-gallery-thumb wow fadeInUp" data-wow-delay="300ms">
+                        <img src="img/bg-img/32.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Single Gallery Thumb -->
+                <div class="col-12 col-sm-3">
+                    <div class="single-gallery-thumb wow fadeInUp" data-wow-delay="300ms">
+                        <img src="img/bg-img/33.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Gallery Area End -->
+
+    <!-- Our Client Area -->
+    <div class="our-client-area about-page section-padding-0-100">
+        <div class="container">
+            <div class="row">
+                <!-- Heading -->
+                <div class="col-12">
+                    <div class="section-heading-3 text-center wow fadeInUp" data-wow-delay="300ms">
+                        <p>WHAT CLIENTS SAY</p>
+                        <h4>Testimonials</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <!-- Client Slider -->
+                    <div class="client-area owl-carousel">
+                        <!-- Single Client Slide -->
+                        <div class="single-client-content bg-boxshadow wow fadeInUp" data-wow-delay="300ms">
+                            <div class="single-client-text about-page">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                                <!-- Thumb and info -->
+                                <div class="single-client-thumb-info d-flex align-items-center">
+                                    <!-- Thumb -->
+                                    <div class="single-client-thumb">
+                                        <img src="img/bg-img/15.jpg" alt="">
+                                    </div>
+                                    <!-- Info -->
+                                    <div class="client-info">
+                                        <h6>Maria Hernandez</h6>
+                                        <p>UX Manager</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Icon -->
+                            <div class="client-icon">
+                                <i class="zmdi zmdi-quote"></i>
+                            </div>
+                        </div>
+
+                        <!-- Single Client Slide -->
+                        <div class="single-client-content bg-boxshadow wow fadeInUp" data-wow-delay="300ms">
+                            <div class="single-client-text about-page">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                                <!-- Thumb and info -->
+                                <div class="single-client-thumb-info d-flex align-items-center">
+                                    <!-- Thumb -->
+                                    <div class="single-client-thumb">
+                                        <img src="img/bg-img/16.jpg" alt="">
+                                    </div>
+                                    <!-- Info -->
+                                    <div class="client-info">
+                                        <h6>Jacqueline Myers</h6>
+                                        <p>UX Manager</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Icon -->
+                            <div class="client-icon">
+                                <i class="zmdi zmdi-quote"></i>
+                            </div>
+                        </div>
+
+                        <!-- Single Client Slide -->
+                        <div class="single-client-content bg-boxshadow wow fadeInUp" data-wow-delay="300ms">
+                            <div class="single-client-text about-page">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                                <!-- Thumb and info -->
+                                <div class="single-client-thumb-info d-flex align-items-center">
+                                    <!-- Thumb -->
+                                    <div class="single-client-thumb">
+                                        <img src="img/bg-img/15.jpg" alt="">
+                                    </div>
+                                    <!-- Info -->
+                                    <div class="client-info">
+                                        <h6>Maria Hernandez</h6>
+                                        <p>UX Manager</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Icon -->
+                            <div class="client-icon">
+                                <i class="zmdi zmdi-quote"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Client Area -->
+
+    <!-- Footer Area Start -->
+    <footer class="footer-area bg-img bg-overlay-2 section-padding-100-0">
+        <!-- Main Footer Area -->
+        <div class="main-footer-area">
+            <div class="container">
+                <div class="row">
+                    <!-- Single Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-60">
+                            <!-- Footer Logo -->
+                            <a href="#" class="footer-logo"><img src="img/core-img/logo.png" alt=""></a>
+                            <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain.</p>
+
+                            <!-- Social Info -->
+                            <div class="social-info">
+                                <a href="#"><i class="zmdi zmdi-facebook"></i></a>
+                                <a href="#"><i class="zmdi zmdi-instagram"></i></a>
+                                <a href="#"><i class="zmdi zmdi-twitter"></i></a>
+                                <a href="#"><i class="zmdi zmdi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-60">
+                            <!-- Widget Title -->
+                            <h5 class="widget-title">Contact</h5>
+
+                            <!-- Contact Area -->
+                            <div class="footer-contact-info">
+                                <p><i class="zmdi zmdi-map"></i> 184 Main Collins Street</p>
+                                <p><i class="zmdi zmdi-phone"></i> (226) 446 9371</p>
+                                <p><i class="zmdi zmdi-email"></i> confer@gmail.com</p>
+                                <p><i class="zmdi zmdi-globe"></i> www.confer.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-60">
+                            <!-- Widget Title -->
+                            <h5 class="widget-title">Workshops</h5>
+
+                            <!-- Footer Nav -->
+                            <ul class="footer-nav">
+                                <li><a href="#">OSHA Compliance</a></li>
+                                <li><a href="#">Microsoft Excel Basics</a></li>
+                                <li><a href="#">Forum Speaker Series</a></li>
+                                <li><a href="#">Tedx Moscow Conference</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Single Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="single-footer-widget mb-60">
+                            <!-- Widget Title -->
+                            <h5 class="widget-title">Gallery</h5>
+
+                            <!-- Footer Gallery -->
+                            <div class="footer-gallery">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <a href="img/bg-img/21.jpg" class="single-gallery-item"><img src="img/bg-img/21.jpg" alt=""></a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="img/bg-img/22.jpg" class="single-gallery-item"><img src="img/bg-img/22.jpg" alt=""></a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="img/bg-img/23.jpg" class="single-gallery-item"><img src="img/bg-img/23.jpg" alt=""></a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="img/bg-img/24.jpg" class="single-gallery-item"><img src="img/bg-img/24.jpg" alt=""></a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="img/bg-img/25.jpg" class="single-gallery-item"><img src="img/bg-img/25.jpg" alt=""></a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="img/bg-img/26.jpg" class="single-gallery-item"><img src="img/bg-img/26.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copywrite Area -->
+        <div class="container">
+            <div class="copywrite-content">
+                <div class="row">
+                    <!-- Copywrite Text -->
+                    <div class="col-12 col-md-6">
+                        <div class="copywrite-text">
+                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                        </div>
+                    </div>
+                    <!-- Footer Menu -->
+                    <div class="col-12 col-md-6">
+                        <div class="footer-menu">
+                            <ul class="nav">
+                                <li><a href="#"><i class="zmdi zmdi-circle"></i> Terms of Service</a></li>
+                                <li><a href="#"><i class="zmdi zmdi-circle"></i> Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
-    
-  
+    <!-- Footer Area End -->
 
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+    <!-- **** All JS Files ***** -->
+    <!-- jQuery 2.2.4 -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- All Plugins -->
+    <script src="js/confer.bundle.js"></script>
+    <!-- Active -->
+    <script src="js/default-assets/active.js"></script>
 
+</body>
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
-    
-  </body>
 </html>
