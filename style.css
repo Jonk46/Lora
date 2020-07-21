@@ -45,6 +45,7 @@ Last Update: March 14, 2019
 @import url(css/font-awesome.min.css);
 @import url(css/material-design-iconic-font.min.css);
 @import url(css/style.css);
+@import url(css/mobile.css);
 /* :: 01.0 Reboot Area CSS */
 
 * {
@@ -3129,8 +3130,8 @@ textarea:invalid, input:invalid, textarea:required, input:required {
 .single-client-content .client-icon {
   background: #df42b1;
   background: -moz-linear-gradient(120deg, #df42b1 0%, #505add 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
   opacity: 0.7;
   position: absolute;
   top: -8px;
